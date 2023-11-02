@@ -1,27 +1,22 @@
 @use '/src/_vars' as *
+@use '../Logo/_logo'
 
 .header
     &__container
-        color: $electric-blue
-        font-weight: 600
-        font-size: 1.5rem
+        padding: 0 5%
         width: 100%
         display: flex
         align-items: center
         justify-content: space-between
 
+
+    &__profile
+        display: flex
+
         figure
             display: flex
             align-items: center
-
-        #logo
-            width: 100px
-            fill: black
-
-    &__profile
-        color: black
-        display: flex
-
+            
         img
             width: 30px
 

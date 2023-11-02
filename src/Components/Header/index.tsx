@@ -1,12 +1,10 @@
 import './styles.sass'
+import Logo from '../Logo'
 
 const Header = () => {
     return (
         <div className='header__container'>
-            <figure>
-                <img src='/src/assets/logo.svg' id='logo' />
-                <caption>E-flight</caption>
-            </figure>
+            <Logo />
             <div className='header__profile'>
                 <figure className='header__profile__icons'>
                     <caption id='currency'>USD</caption>
