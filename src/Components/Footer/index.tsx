@@ -1,6 +1,8 @@
+import './styles.sass'
+
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer__container'>Footer</div>
   )
 }
 
