@@ -7,7 +7,7 @@ const Header = () => {
             <Logo />
             <div className='header__profile'>
                 <figure className='header__profile__icons'>
-                    <caption id='currency'>USD</caption>
+                    <figcaption id='currency'>USD</figcaption>
                     <img src='/src/assets/lang.svg' alt='language' />
                     <img src='/src/assets/bell.svg' alt='notifications' />
                     <img src='/src/assets/dummy.png' alt='profile' id='profile' />
