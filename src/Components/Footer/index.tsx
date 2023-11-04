@@ -8,6 +8,7 @@ import {
     faTwitter,
     faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
+import { RiMailFill } from 'react-icons/ri'
 
 const Footer = () => {
     const currentYear = new Date().getFullYear()
@@ -18,8 +19,8 @@ const Footer = () => {
                 <section className='footer__subscribe'>
                     <Logo />
                     <form>
-                        <CustomInput></CustomInput> &nbsp;
-                        <CustomButton>Subscribe</CustomButton>
+                        <CustomInput icon={<RiMailFill color="gray" size={20} />} /> 
+                        &nbsp; <CustomButton>Subscribe</CustomButton>
                     </form>
                 </section>
                 <table>
@@ -38,9 +39,9 @@ const Footer = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>How to book</td>
-                            <td>Booking easily</td>
-                            <td>
+                            <td><span>How to book</span></td>
+                            <td><span>Booking easily</span></td>
+                            <td className='media_icons'>
                                 <FontAwesomeIcon icon={faFacebook} />
                                 &nbsp;
                                 <FontAwesomeIcon icon={faTwitter} />
@@ -49,8 +50,8 @@ const Footer = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>Help center</td>
-                            <td>Promotions</td>
+                            <td><span>Help center</span></td>
+                            <td><span>Promotions</span></td>
                         </tr>
                     </tbody>
                 </table>
