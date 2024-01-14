@@ -2,7 +2,7 @@ import './styles.sass'
 
 const Home = () => {
   return (
-    <div className='home__div'>Home!</div>
+    <div className='home__container'>Home!</div>
   )
 }
 

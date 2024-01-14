@@ -19,7 +19,7 @@ const Router = () => {
                 element: <Booking />
             },
             {
-                path: '/flights',
+                path: 'flights',
                 element: <Flights />
             }
         ]
