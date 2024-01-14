@@ -8,7 +8,7 @@ interface CustomButtonProps {
 
 const CustomButton = ({ children, backgroundColor, onClick }: CustomButtonProps) => {
   return (
-    <button className="customButton"style={{ backgroundColor }} onClick={onClick}> 
+    <button className="customButton" style={{ backgroundColor }} onClick={onClick}> 
       {children}
     </button>
   )
